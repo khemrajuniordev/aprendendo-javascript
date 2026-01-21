@@ -1,0 +1,27 @@
+
+
+1. Escopo (Scope)
+
+O escopo determina a visibilidade de uma variável. Ele define onde você pode ou não acessar um dado no seu código.
+Escopo Global
+
+Variáveis declaradas fora de qualquer função ou bloco. Elas podem ser acessadas de qualquer lugar do script.
+
+Escopo de Função (Local)
+
+Variáveis criadas dentro de uma função só existem ali dentro.
+
+2. Hoisting (Içamento)
+
+O Hoisting é um comportamento do JavaScript onde as declarações de variáveis e funções são "elevadas" para o topo do seu escopo antes da execução do código.
+
+Imagine que o motor do JavaScript lê seu arquivo duas vezes: primeiro ele separa as gavetas (declarações) e depois coloca as roupas dentro (execução).
+Hoisting com var
+
+Com var, a declaração sobe, mas a atribuição não. Isso resulta em undefined.
+
+Resumo para seu aprendizado
+Conceito	Resumo
+Escopo	"Onde eu posso usar esta variável?"
+Hoisting	"O JS moveu minha declaração para o topo!"
+Dica de Ouro	Evite var. Use sempre let e const para ter um escopo previsível e evitar bugs de hoisting.
