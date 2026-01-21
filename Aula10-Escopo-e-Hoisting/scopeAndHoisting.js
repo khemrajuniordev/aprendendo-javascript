@@ -22,3 +22,5 @@ const funcao = () =>{
 funcao();
 
 // Hoisting
+
+
