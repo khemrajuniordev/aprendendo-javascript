@@ -1,0 +1,77 @@
+✅ PASSO 1 — Abrir o terminal na pasta do projeto
+
+Abra a pasta do projeto
+
+Clique com o botão direito
+
+Selecione:
+
+“Abrir no Terminal”
+ou
+
+“Git Bash Here”
+
+👉 O terminal precisa estar dentro dessa pasta vazia.
+
+✅ PASSO 2 — Inicializar o Git (criar o repositório)
+
+No terminal, digite:
+
+git init
+
+O que isso faz? (vida real)
+
+É como dizer:
+“Git, a partir de agora você vai cuidar do histórico desse projeto”.
+
+📌 Resultado:
+
+Uma pasta oculta chamada .git é criada
+
+Sua pasta agora é um repositório Git
+
+
+✅ PASSO 3 — Ver o status do repositório
+
+No terminal:
+
+git status
+
+Você verá algo como:
+
+Untracked files:
+  index.js
+
+
+🧠 Significa:
+
+O Git viu o arquivo, mas ainda não está acompanhando.
+
+✅ PASSO 4 — Adicionar arquivos ao Git (staging)
+git add .
+
+Tradução humana:
+
+“Git, prepara todos os arquivos para salvar no histórico”.
+
+✅ PASSO 5 — Criar o primeiro commit
+git commit -m "Aula 01 - Hello World em JavaScript"
+
+
+🧠 Commit = foto do projeto naquele momento.
+
+✅ PASSO 6 — enviar o pacote para o github
+git push -u origin main
+
+
+
+📌 Boas práticas:
+
+Mensagem curta
+
+Diz o que foi feito, não como
+
+🎉 PRONTO!
+
+Você acabou de criar um repositório Git local 👏
+Isso já é fundamento de DEV.
