@@ -6,7 +6,6 @@ const notasFinais = [
     {nome: "Paula", nota: 3},
 ]
 
-
 /*
 for (let i = 0; i < notasFinais.length; i++) {
     if (notasFinais[i].nota >=6) {
