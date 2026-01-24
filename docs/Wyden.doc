@@ -1,0 +1,70 @@
+1.1 Visão do Produto (Product Vision)
+O que é:
+ Declaração clara do que o produto é, para quem é e qual valor entrega.
+Product Vision Statement:
+Criar um sistema de Helpdesk simples, humano e eficiente que permita pequenas equipes organizarem, acompanharem e resolverem solicitações de suporte, sem transformar clientes em apenas números de ticket, garantindo rastreabilidade, métricas e aprendizado contínuo.
+Por que isso é importante?
+Serve como norte para decisões técnicas
+Evita feature inútil
+Professores AMAM isso
+1.2 Problema que o Sistema Resolve
+Problemas identificados:
+Atendimento desorganizado via WhatsApp/email
+Perda de histórico de solicitações
+Falta de métricas (tempo de resposta, volume de chamados)
+Cliente se sente ignorado ou “mais um”
+Solução proposta:
+Centralizar chamados
+Criar fluxo claro de atendimento
+Acompanhar status
+Gerar relatórios para decisão
+1.3 Personas (Usuários do Sistema)
+Persona 1 — Cliente Final
+Nome: Ana
+Perfil: Cliente que precisa de suporte
+Dor: Não sabe se seu problema está sendo tratado
+Objetivo: Resposta clara e acompanhamento
+Persona 2 — Atendente / Suporte
+Nome: Carlos
+Perfil: Responsável por resolver chamados
+Dor: Muitos pedidos, sem organização
+Objetivo: Priorizar e resolver rápido
+Persona 3 — Administrador
+Nome: Mariana
+Perfil: Gerente / coordenador
+Dor: Falta de métricas
+Objetivo: Ver relatórios e performance
+1.4 Jornada do Usuário (Cliente)
+Cliente cria chamado
+Recebe confirmação
+Acompanha status (Aberto → Em andamento → Fechado)
+Recebe solução
+Chamado finalizado
+👉 Isso depois vira fluxo no Figma, se quiser.
+1.5 Requisitos Funcionais (RF)
+Exemplos (documentação real):
+RF01: O sistema deve permitir cadastro de usuários
+RF02: O usuário deve autenticar-se com login e senha
+RF03: O cliente deve criar um chamado
+RF04: O atendente deve alterar o status do chamado
+RF05: O sistema deve armazenar chamados no banco
+RF06: O sistema deve gerar relatórios estatísticos
+1.6 Requisitos Não Funcionais (RNF)
+RNF01: O sistema deve responder em até 2s
+RNF02: O sistema deve usar autenticação segura
+RNF03: Interface simples e intuitiva
+RNF04: Banco relacional MySQL
+RNF05: Código versionado em Git
+1.7 Regras de Negócio
+Um chamado só pode ser fechado se estiver “Em andamento”
+Apenas atendentes podem mudar status
+Clientes só veem seus próprios chamados
+Relatórios acessíveis apenas por administradores
+1.8 Casos de Uso (exemplo)
+UC01 — Criar Chamado
+Ator: Cliente
+Fluxo principal:
+Login
+Preenche formulário
+Envia
+Sistema salva no banco
