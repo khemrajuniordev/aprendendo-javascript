@@ -15,8 +15,47 @@ function imposto (salario) {
         return "Imposto médio"
     } else {
         return "Imposto alto"
-    }
+    
 }
 
 imposto(salario);
 console.log(imposto(salario));
+
+
+
+//anotações
+//operadores de comparação
+// < menor que  
+// <= menor ou igual que
+// > maior que
+// >= maior ou igual que                        
+// == igual a (valor)
+// === estritamente igual a (valor e tipo)
+// != diferente de (valor)
+// !== estritamente diferente de (valor e tipo)
+// && e (AND)
+// || ou (OR)
+// ! negação (NOT)  
+//exemplo de uso dos operadores
+// console.log(5 < 10); // true
+// console.log(5 <= 5); // true
+// console.log(10 > 5); // true 
+// console.log(10 >= 10); // true
+// console.log(5 == '5'); // true
+// console.log(5 === '5'); // false     
+// console.log(5 != '6'); // true
+// console.log(5 !== '5'); // true
+// console.log(true && false); // false
+// console.log(true || false); // true
+// console.log(!true); // false
+
+// estruturas condicionais
+// if (condição) {
+//     // código a ser executado se a condição for verdadeira       
+
+//esturura grande de if esle if
+// } else if (outra condição) {
+//     // código a ser executado se a outra condição for verdadeira
+// } else {
+//     // código a ser executado se nenhuma das condições anteriores for verdadeira
+// }
