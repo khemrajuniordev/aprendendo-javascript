@@ -7,7 +7,6 @@ Se idade ≥ 18 e possui cadastro → "Acesso permitido"
 Caso contrário → "Acesso negado" */
 
 
-
 const idade = 15;
 const cadastro = true;
 
@@ -17,11 +16,9 @@ function verficacao(idade) {
     } else {
         return "Acesso negado"    
     }
-
 }
 
 verficacao(idade)
-
 console.log(verficacao(idade));
 
 
